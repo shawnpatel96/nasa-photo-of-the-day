@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">{/*Read through the instructions in the README.md file to build your NASA app! Have fun 🚀! */} 
     {/* My final child components will go here */ }
-    <h1>API</h1>
+    <h1 className='header'>NASA Photo Of The Day</h1>
       <CardData/>
     </div>
   );

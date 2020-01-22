@@ -3,6 +3,7 @@ import axios from "axios";
 import NasaCard from "./NasaCard"
 
 
+
 function CardData() {
     const [nasaData, setNasaData]= useState([]);
 
@@ -24,7 +25,7 @@ function CardData() {
 
     return (
 
-        <div className="">
+        <div className="nasaCard">
             
                     <NasaCard
                     key={nasaData.url}
