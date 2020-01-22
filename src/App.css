@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+body {
+ 
+  overflow-x: hidden;
+  background-color: #56a9ad;
+  background-image: url("./images/JL5hs1B.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
